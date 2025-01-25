@@ -1,13 +1,124 @@
-body {
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  font-family: 'Inter', sans-serif; /* Use a clean and modern font */
+  background-color: #f5f5f5; /* Light background for contrast */
+  color: #333; /* Default text color */
+  line-height: 1.5;
+}
+
+/* Scrollbar Styling */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #c3c3c3;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #888;
+}
+
+::-webkit-scrollbar-track {
+  background: #f0f0f0;
+}
+
+/* Buttons */
+button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+/* Links */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Input Fields */
+input[type="text"] {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 8px 12px;
+  font-size: 14px;
+  width: 100%;
+}
+
+input[type="checkbox"] {
+  accent-color: #22c55e; /* Green accent for checkboxes */
+}
+
+/* List Styling */
+ul {
+  list-style-type: none;
+}
+
+li {
+  padding: 8px 0;
+}
+
+/* Utility Classes */
+.bg-transparent {
+  background: transparent;
+}
+
+.text-green {
+  color: #22c55e;
+}
+
+.bg-green-50 {
+  background-color: #ecfdf5;
+}
+
+.bg-green-100 {
+  background-color: #d1fae5;
+}
+
+.text-gray-600 {
+  color: #6b7280;
+}
+
+.text-gray-500 {
+  color: #9ca3af;
+}
+
+.border-b {
+  border-bottom: 1px solid #ddd;
+}
+
+.border-r {
+  border-right: 1px solid #ddd;
+}
+
+.rounded {
+  border-radius: 8px;
+}
+
+.line-through {
+  text-decoration: line-through;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .h-screen {
+    height: auto;
+  }
+
 }

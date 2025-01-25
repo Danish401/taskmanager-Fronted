@@ -3,12 +3,31 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@dnd-kit/core": "^6.3.1",
+    "@dnd-kit/sortable": "^10.0.0",
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@mui/icons-material": "^6.1.9",
+    "@mui/material": "^6.4.1",
+    "@mui/x-date-pickers": "^7.22.3",
+    "@reduxjs/toolkit": "^2.5.0",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.7.9",
+    "chart.js": "^4.4.6",
+    "dayjs": "^1.11.13",
     "react": "^18.3.1",
+    "react-chartjs-2": "^5.2.0",
     "react-dom": "^18.3.1",
+    "react-google-login": "^5.2.2",
+    "react-icons": "^5.3.0",
+    "react-redux": "^9.2.0",
+    "react-router-dom": "^7.1.3",
     "react-scripts": "5.0.1",
+    "react-toastify": "^11.0.3",
+    "recharts": "^2.13.3",
+    "sweetalert2": "^11.15.10",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -34,5 +53,11 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.15"
+  },
+  "proxy": "https://task-manager-18p7.onrender.com/"
 }
