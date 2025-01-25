@@ -6,8 +6,28 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+Objective: 
+# Project  Description 
+Develop a web application with basic user authentication, a task management system, and a feed 
+for users to post content. The project will be evaluated based on functionality, design, and code 
+quality. 
+ 
+ - Register: Allow users to create an account using name, email, and password. 
+ - Login: Allow users to log in with their email and password. 
+ -Provide a form where users can add tasks (task name and 
+  description).Divide the UI into three columns: 
+1. Pending 
+2. Completed 
+3. Done 
+ 
+Enable users to drag and drop tasks between columns. Update the task's status based on the 
+column.Add a delete icon to each task. Ask for confirmation before deletion. 
+If confirmed, delete the task. 
+ - Create a feed where all users can post content: 
+ - Each post should include a photo and a caption. 
+ - Use a third-party service like Cloudinary for storing and retrieving photos.
 ### `npm start`
-
+for backend nodemon server.js
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
